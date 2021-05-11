@@ -69,7 +69,7 @@ def main():
     if choice == 'Home':
         html_temp = """ 
         <marquee behavior="scroll" direction="left" width="100%;">
-        <h2 style= "color: #7adcf4; font-family: 'Raleway',sans-serif; font-size: 44px; font-weight: 700; line-height: 102px; margin: 0 0 24px; text-align: center; text-transform: uppercase;">How are you feeling today? </h2>
+        <h2 style= "color: #445eff; font-family: 'Raleway',sans-serif; font-size: 44px; font-weight: 700; line-height: 102px; margin: 0 0 24px; text-align: center; text-transform: uppercase;">How are you feeling today? </h2>
         </marquee><br>
         """
         st.markdown(html_temp, unsafe_allow_html=True)
