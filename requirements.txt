@@ -16,6 +16,7 @@ numpy
 notebook
 nbformat
 nbconvert
+keras
 keras-preprocessing
 json5
 ipython
