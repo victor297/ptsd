@@ -121,6 +121,7 @@ def main():
         #st.markdown(html_choice, unsafe_allow_html=True)
 
         st.subheader(":smile: :hushed: :worried: :rage: :fearful:")
+	st.markdown("____")
         image_file = st.file_uploader("Upload Image", type=['jpg','png','jpeg'])
 
         #if image if uploaded, display the progress bar and the image
